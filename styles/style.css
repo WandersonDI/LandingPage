@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+body{
+   background-color: rgb(136, 51, 51);
+
+}
+
+
+#headerCont{
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+    height: 100vh;
+    background-position: 0 -200px;
+    
+}
+
+ .navUl > li{
+    background-color: rgba(192, 29, 29, 0.842);
+    transition: all 700ms;
+ }
+
+ .navUl > li:hover{
+    background-color: rgba(119, 10, 10, 0.877);
+    padding: 0 20px;
+ }
+
+ #headerCont > section{
+    background-color: rgba(73, 5, 5, 0.24);
+    height: 370px;
+ }
+
+ .carde{
+   width: 50%;
+   height: 500px;
+ }
+
+ .c2{
+   background-color: rgb(201, 179, 57);
+ }
+
+ .c1{
+   background-color: rgba(180, 50, 46, 0.815);
+ }
+
+ @media (max-width: 767px) {
+   .carde{
+      width: 100%;
+   }
+
+   #headerCont{
+      background-size: 100%;
+   }
+
+ }
+
+

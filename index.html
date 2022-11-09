@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon_io/site.webmanifest">
+
+    <title>LandingPage</title>
+</head>
+<body>
+
+    <div id="headerCont">
+        <header class="container">
+            <nav class="navbar nav position-fixed" style="z-index: 1;">
+                <div class="">
+                    <a href="#"><img id="logo" src="./images/logo.png" alt="Logo" width="70px"></a>
+                </div>
+                
+                <div>
+                    <ul class="nav navUl">
+                        <li class="nav-item"><a class="nav-link text-light" href="#info">info</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#pictures">Pictures</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        
+            </nav>
+        </header>
+
+        <section class="container d-flex flex-column align-items-center justify-content-center w-100 h-100">
+
+            <h1 class="display-4 text-center my-5"> Photography</h1>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aspernatur quidem earum nostrum. Modi, minus earum. Nobis, temporibus asperiores. Impedit, non labore quo quisquam odit veritatis esse ab fugit dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis non sed eligendi dignissimos, rerum doloribus perspiciatis exercitationem quod temporibus distinctio aliquam iste quis in explicabo consequatur odit unde provident dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quos deserunt aperiam et delectus, dignissimos aliquam quisquam, omnis quae fugit dolor dicta sint debitis numquam odio praesentium in a incidunt. Lorem ipsum dolor sit amet consecte</p>
+
+            <button class="btn btn-danger w-25 mb-4">Learn More</button>
+        </section>
+
+        
+    </div>
+
+    <section id="info" class="container c1 p-0">
+
+        <header class=" text-center bg-dark bg-opacity-50 p-5">
+            <h1 >information</h1>
+        </header>
+
+        <div class="d-flex flex-wrap flex-s">
+
+            <div class="carde c2 d-flex justify-content-center align-items-center">
+                <img src="./images/hand-person-girl-woman-camera-photography-973204-pxhere.com.jpg" alt="woman with a camera" width="90%">
+            </div>
+    
+            <div class="carde descri d-flex flex-column justify-content-center align-items-center px-5">
+                <h3>lorem ipsum</h3>
+    
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus alias accusantium obcaecati magni. Nihil porro natus magni dolorum? Ipsam explicabo et rerum suscipit ducimus beatae quam nostrum labore sit sequi?</p>
+            </div>
+            <div class="carde descri text-danger d-flex justify-content-center align-items-center px-5">
+                <p>lorem   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus expedita quae dolorum voluptas rem non explicabo similique quasi! Aperiam asperiores sunt facilis harum ut iste. Voluptatibus impedit corrupti voluptate? </p>
+            </div>
+    
+            <div class="carde c2 d-flex justify-content-center align-items-center">
+                <img src="./images/foto-camera.webp" alt="camera" width="90%">
+            </div>
+
+        </div>
+
+        
+    </section>
+
+    <section id="pictures" class="container p-0 bg-black bg-opacity-50">
+
+        <header class=" p-5 text-center">
+            <h1>SOME PICTURES</h1>
+        </header>
+        
+        <div>
+
+            <div id="carouselIndicators" class="carousel slide w-100" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/01.jpg" class="d-block w-100" alt="image1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/02.jpg" class="d-block w-100" alt="image2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/03.jpg" class="d-block w-100" alt="image3">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+
+        </div>
+    
+    </section>
+
+    <footer id="contact" class=" w-100 bg-black bg-opacity-50 py-4">
+        <div class="container d-flex justify-content-between">
+                <section>
+                    <h3>social networks:</h3>
+
+                    <ul class=" list-unstyled">
+                        <li><a href="https://pt-br.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="facebookLogo" width="40px"></a></li>
+                        <li><a href="https://twitter.com/"><img src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" alt="twitterLogo" width="40px"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="instagram logo" width="40px"></a></li>
+                    </ul>
+                    
+                </section>
+
+                <section>
+                    <h3>contact:</h3>
+
+                    <ul class=" list-unstyled">
+                        <li>telefone: 111111111</li>
+                        <li><a href="mailto:fotografyst@hotmail.com">fotografyst@example.com</a></li>
+                    </ul>
+                </section>
+        </div>
+    </footer>
+
+</body>
+</html>
