@@ -1,6 +1,6 @@
 <h1>Landing Page</h1>
 
-<p>a simple landing made with HTML and Bootstrap.</p>
+<p>a simple landing-page made with HTML and Bootstrap.</p>
 
 
 <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="htmlIcon" width="70px" align="left">
